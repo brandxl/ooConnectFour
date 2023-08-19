@@ -1,0 +1,46 @@
+
+*
+body {
+    background-color: black;
+}
+
+input {
+    color: white;
+    font-size: 28px;
+    font-family: impact;
+    background-color:black;
+ 
+}
+
+button  {
+    color: white;
+    background-color: black;
+    font-size: 28px;
+    font-family: impact;
+}
+
+
+#board td {
+    width: 80px;
+    height: 80px;
+    border: solid 1px purple;
+  }
+  
+  /* pieces are div within game table cells: draw as colored circles */
+  
+  .piece {
+    margin: 6px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+  }
+  
+  /* column-top is table row of clickable areas for each column */
+  
+  #column-top td {
+    border: dashed 1px black;
+  }
+  
+  #column-top td:hover {
+    background-color: blue;
+  }
